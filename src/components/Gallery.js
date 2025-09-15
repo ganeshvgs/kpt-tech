@@ -6,24 +6,24 @@ const Gallery = () => {
     {
       title: "Event Highlights - Set 1",
       images: [
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-11%20124332.png?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-11%20124554.png?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-11%20124616.png?raw=true",
       ],
     },
     {
       title: "Event Highlights - Set 2",
       images: [
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123503.png?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123539.png?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123539.png?raw=true",
       ],
     },
     {
       title: "Event Highlights - Set 3",
       images: [
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://github.com/ganeshvgs/images/blob/main/img1.jpg?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.34_ce48482a.jpg?raw=true",
         "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
       ],
     },
