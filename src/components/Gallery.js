@@ -1,43 +1,31 @@
 import React from "react";
 
 const Gallery = () => {
-  // 9 images with titles (3 sets of 3)
-  const images = [
+  // Each set has a title and 3 images
+  const sets = [
     {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 1",
+      title: "Event Highlights - Set 1",
+      images: [
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
+      ],
     },
     {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 2",
+      title: "Event Highlights - Set 2",
+      images: [
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
+      ],
     },
     {
-      url: "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
-      title: "Event 3",
-    },
-    {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 4",
-    },
-    {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 5",
-    },
-    {
-      url: "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
-      title: "Event 6",
-    },
-    {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 7",
-    },
-    {
-      url: "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
-      title: "Event 8",
-    },
-    {
-      url: "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
-      title: "Event 9",
+      title: "Event Highlights - Set 3",
+      images: [
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://raw.githubusercontent.com/ganeshvgs/images/refs/heads/main/Screenshot%202025-09-11%20124456.png",
+        "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.45_6618e235.jpg?raw=true",
+      ],
     },
   ];
 
@@ -47,23 +35,30 @@ const Gallery = () => {
         Gallery
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {images.map((item, index) => (
-          <div
-            key={index}
-            className="overflow-hidden rounded-xl shadow-lg hover:scale-105 transform transition duration-300 bg-white"
-          >
-            <img
-              src={item.url}
-              alt={item.title}
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-4 text-center">
-              <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
-            </div>
+      {sets.map((set, index) => (
+        <div key={index} className="mb-12">
+          {/* Title for each set */}
+          <h3 className="text-2xl font-semibold text-center text-gray-800 mb-6">
+            {set.title}
+          </h3>
+
+          {/* 3 images in a row */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {set.images.map((url, i) => (
+              <div
+                key={i}
+                className="overflow-hidden rounded-xl shadow-lg hover:scale-105 transform transition duration-300 bg-white"
+              >
+                <img
+                  src={url}
+                  alt={`Gallery ${index + 1}-${i + 1}`}
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </section>
   );
 };
