@@ -4,7 +4,7 @@ const Gallery = () => {
   // Each set has a title and 3 images
   const sets = [
     {
-      title: "Event Highlights - Set 1",
+      title: "Photo Podium & Stage Inauguration",
       images: [
         "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-11%20124332.png?raw=true",
         "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-11%20124554.png?raw=true",
@@ -12,15 +12,15 @@ const Gallery = () => {
       ],
     },
     {
-      title: "Event Highlights - Set 2",
+      title: "Illuminated College Logo Unveiling",
       images: [
         "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123503.png?raw=true",
         "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123539.png?raw=true",
-        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123539.png?raw=true",
+        "https://github.com/ganeshvgs/images/blob/main/Screenshot%202025-09-15%20123517.png?raw=true",
       ],
     },
     {
-      title: "Event Highlights - Set 3",
+      title: "Pathway to Dignity Inauguration",
       images: [
         "https://github.com/ganeshvgs/images/blob/main/img1.jpg?raw=true",
         "https://github.com/ganeshvgs/images/blob/main/WhatsApp%20Image%202025-09-06%20at%2017.50.34_ce48482a.jpg?raw=true",
