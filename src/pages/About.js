@@ -33,34 +33,7 @@ const About = () => {
         </p>
       </div>
 
-      {/* Principal's Message */}
-      <div className="relative z-10 max-w-4xl mx-auto mb-12 bg-white p-8 rounded-xl shadow-lg">
-        <h2 className="text-2xl font-bold text-[#800000] mb-6">
-          Principal’s Message
-        </h2>
-
-        <div className="flex flex-col md:flex-row items-center gap-6 text-left">
-          {/* Principal Image */}
-       <img
-  src="https://gpt.karnataka.gov.in/kptmangalore/public/uploads/media_to_upload1756221132.jpg"
-  alt="Principal of Karnataka Polytechnic Mangalore"
-  className="w-40 h-40 rounded-xl object-cover shadow-md"
-/>
-
-
-          {/* Principal Message */}
-          <p className="text-gray-700 text-lg leading-relaxed">
-            I am proud to see our students take the lead in forming the
-            Technical Club. This platform will encourage teamwork, innovation,
-            and skill development beyond academics. I urge all students to
-            participate actively and make the most of this opportunity.
-            <br /><br />
-            <span className="font-semibold">
-              — Principal, Karnataka Polytechnic Mangalore
-            </span>
-          </p>
-        </div>
-      </div>
+     
 
       {/* Vision & Mission Tabs */}
       <div className="relative z-10 max-w-3xl mx-auto text-center">
