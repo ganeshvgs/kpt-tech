@@ -16,7 +16,7 @@ const Coordinator = () => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         {/* Title */}
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl font-bold text-center mb-4">
           Technical Club <span className="text-yellow-600">Coordinator</span>
         </h2>
 
@@ -36,7 +36,7 @@ const Coordinator = () => {
             <p className="text-yellow-600 mb-2">
               Head of Civil Department & Technical Club Coordinator
             </p>
-            <p className="text-gray-500 mb-6">
+            <p className="text-gray-500 mb-2">
               Karnataka (Govt.) Polytechnic, Mangalore
             </p>
 
@@ -55,29 +55,22 @@ const Coordinator = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="mt-6 space-y-2 text-sm text-gray-600 w-full text-left">
-              <p className="flex items-center gap-2">
-                <Mail className="w-5 h-5 text-yellow-600" /> deepak.talekar@kptmangalore.ac.in
-              </p>
-              <p className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-yellow-600" /> +91-824-2287424 (Ext: 101)
-              </p>
+            <div className="mt-2 space-y-2 text-sm text-gray-600 w-full text-left">
+              
               <p className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-yellow-600" /> Civil Department, KPT Mangalore
               </p>
             </div>
 
             {/* Button */}
-            <button className="mt-6 bg-yellow-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-yellow-700 transition">
-              Contact Coordinator
-            </button>
+           
           </div>
 
           {/* Right Side Info */}
           <div className="md:col-span-2 space-y-6">
             {/* Vision */}
             <div className="bg-white p-6 rounded-xl shadow-md text-left">
-              <h3 className="font-bold text-lg text-[#800000] flex items-center gap-2 mb-2">
+              <h3 className="font-bold text-lg text-[#800000] flex items-center gap-2 mb-12">
                 <ClipboardList className="w-5 h-5 text-yellow-600" /> Vision & Leadership
               </h3>
               <p className="text-gray-600 text-sm">
@@ -90,7 +83,7 @@ const Coordinator = () => {
 
             {/* Responsibilities */}
             <div className="bg-white p-6 rounded-xl shadow-md text-left">
-              <h3 className="font-bold text-lg text-[#800000] flex items-center gap-2 mb-4">
+              <h3 className="font-bold text-lg text-[#800000] flex items-center gap-2 mb-6">
                 <ClipboardList className="w-5 h-5 text-yellow-600" /> Key Responsibilities
               </h3>
               <ul className="list-disc list-inside text-gray-600 text-sm space-y-2">
